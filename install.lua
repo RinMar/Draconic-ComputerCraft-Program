@@ -3,7 +3,7 @@ local startupURL = "https://raw.githubusercontent.com/RinMar/Draconic-ComputerCr
 local startup
 local startupFile
 
-function saveFiles(name, url)
+function saveFile(name, url)
   local conn = http.get(url)
   local content = conn.readAll()
   local file = fs.open(name, "w")
