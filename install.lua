@@ -1,7 +1,6 @@
 
 local startupURL = "https://raw.githubusercontent.com/RinMar/Draconic-ComputerCraft-Program/master/startup.lua"
-local startup
-local startupFile
+local startup, startupFile
 
 function saveFile(name, url)
   local conn = http.get(url)

@@ -31,9 +31,9 @@ function saveFile(name, url)
     end
  end
 
-saveFile("lib/f.lua", libURL)
-saveFile("lib/button.lua", libURL2)
-saveFile("reactor.lua", startupURL)
+saveFile("lib/f", libURL)
+saveFile("lib/button", libURL2)
+saveFile("reactor", startupURL)
  
 print("Finished")
 print("Starting Program")
