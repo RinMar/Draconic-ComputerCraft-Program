@@ -20,7 +20,7 @@ function saveFile(name, url)
         if libFile ~= f then
             file1.close()
             local file2 = fs.open(name, "w")
-            file2.write(libFile)
+            file2.write(content)
             file2.close()
            
             print(name," updating...")
