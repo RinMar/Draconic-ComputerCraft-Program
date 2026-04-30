@@ -1,6 +1,6 @@
 
-os.loadAPI("lib/f")
-os.loadAPI("lib/button")
+os.loadAPI("lib/f.lua")
+os.loadAPI("lib/button.lua")
 
 local targetStrength = 50
 local maxTemp = 7750
